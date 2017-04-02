@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401a7c00-0b82-4066-8014-621228b2920d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svm_kernel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/struct_data.iml" afterPath="$PROJECT_DIR$/.idea/struct_data.iml" />
-    </list>
+    <list default="true" id="401a7c00-0b82-4066-8014-621228b2920d" name="Default" comment="" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +9,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/struct_data$sliding_window.coverage" NAME="svm_kernel Coverage Results" MODIFIED="1491151648341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/struct_data$sliding_window.coverage" NAME="svm_kernel Coverage Results" MODIFIED="1491152179795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/struct_data$train.coverage" NAME="train Coverage Results" MODIFIED="1491152192226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/struct_data$import_data.coverage" NAME="import_data Coverage Results" MODIFIED="1491152205022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -21,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train.py">
+      <file leaf-file-name="import_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/import_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="-645">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -134,7 +132,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.svm_kernel">
+  <component name="RunManager" selected="Python.import_data">
     <configuration default="false" name="svm_kernel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,6 +147,42 @@
       <module name="struct_data" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm_kernel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="struct_data" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="import_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="struct_data" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/import_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -367,12 +401,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.svm_kernel" />
+      <item index="1" class="java.lang.String" itemvalue="Python.train" />
+      <item index="2" class="java.lang.String" itemvalue="Python.import_data" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.svm_kernel" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.import_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.train" />
+        <item index="2" class="java.lang.String" itemvalue="Python.svm_kernel" />
       </list>
     </recent_temporary>
   </component>
@@ -495,39 +533,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/import_data.py">
+    <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding>
-            <marker date="1491151942000" expanded="true" signature="0:79" ph="import ..." />
-            <marker date="1491151942000" expanded="true" signature="138:1349" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="220:316" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="366:1038" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="462:851" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="499:851" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="538:851" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="658:851" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="1146:1333" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="1179:1333" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="1391:4532" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="1519:1710" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="1804:3919" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="1837:3919" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="1912:1956" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="2096:2134" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="2211:2620" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="2712:3142" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="3160:3849" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="3400:3487" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="3509:3612" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="3637:3724" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="3746:3849" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="3985:4314" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="4551:4968" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="4984:5508" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="5537:5614" ph="..." />
-            <marker date="1491151942000" expanded="true" signature="5542:5598" ph="..." />
+            <marker date="1491151886000" expanded="true" signature="0:105" ph="import ..." />
+            <marker date="1491151886000" expanded="true" signature="124:1245" ph="..." />
+            <marker date="1491151886000" expanded="true" signature="1016:1245" ph="..." />
           </folding>
         </state>
       </provider>
@@ -549,10 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
+    <entry file="file://$PROJECT_DIR$/import_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="-645">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
